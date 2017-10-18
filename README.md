@@ -25,7 +25,7 @@ To run the code generator, compile with `clang -o Generator Generator.c` then ru
 
 ## Compiling C# #
 
-C# code is placed in an otherwise empty Unity project's `Assets` directory by the code generator. The project is then opened so all assets can be imported by Unity.
+C# code is placed in an otherwise empty Unity project's `Assets` directory by the code generator. Note that using the "Experimental (.NET 4.6 Equivalent)" option in "Project Settings > Player > Scripting Runtime Version" does not impact compile times. The project is then opened so all assets can be imported by Unity.
 
 To do a full compile, run the code generator and switch to the Unity editor.
 
